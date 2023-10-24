@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./surgery.css"
+  </head>
+
+  <body>
+    <header>
+      <div class="heading">
+        <a href="#">Tech Returners Surgery</a><br />
+        <address>
+          115 Mancunian Way,<br />
+          Manchester,<br />
+          M20 3PX
+        </address>
+      </div>
+      <a class="header-link" href="tel:03330509138">Telephone: 0333 050 9138</a>
+    </header>
+
+    <nav class="navigation-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Patient Information</a></li>
+        <li><a href="#">Well-being Centre</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="search-bar">
+        <input
+          type="search"
+          id="site-search"
+          name="search"
+          placeholder="Search.."
+        />
+        <button>Search</button>
+      </div>
+
+      <div class="notice">
+        <section>
+          <h1>COVID Restriction Update</h1>
+
+          <p>
+            Throughout the pandemic we have strove to make the surgery as safe
+            as possible for all our patients and staff, we will continue to do
+            so.
+          </p>
+
+          <p>
+            From the
+            <strong>19th July 2021, nothing will change at the Surgery</strong>
+            Patients will <b>still need</b> to wear a mask, socially distance
+            and use hand sanitiser in the surgery and staff will continue to
+            wear PPE.
+          </p>
+
+          <p>
+            If you arrive without a mask and are not exempt, you will be asked
+            to leave.
+          </p>
+        </section>
+      </div>
+      <div class="video-text-container">
+        <section class="flex-section">
+          <h2>Welcome to the Tech Returners Surgery!</h2>
+
+          <img
+            class="image"
+            src="./surgery.png"
+            alt="Medical instruments
+          on a blue background"
+          />
+        </section>
+
+        <section class="flex-section">
+          <h2>How to use Ask My Doc?</h2>
+
+          <video controls width="250">
+            <source src="#" type="video/webm" />
+            <source src="#" type="video/mp4" />
+
+            <track
+              kind="captions"
+              srclang="en"
+              src="./ask_my_doc_transcript.vtt"
+              default
+            />
+
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </section>
+      </div>
+      <hr />
+      <footer>
+        <h2>Need advice or have some feedback for us?</h2>
+
+        <form>
+          <fieldset>
+            <legend>
+              Send us a message by filling out the form below and one of our
+              receptionists will be in touch:
+            </legend>
+            <div class="form-container">
+              <div class="row">
+                <p>Are you completing this form on behalf of:</p>
+              </div>
+              <div class="row">
+                <div class="column-left">
+                  <label for="self">Yourself </label>
+                </div>
+                <div class="column-right">
+                  <input type="checkbox" id="self" name="self" />
+                </div>
+                <div class="column-left">
+                  <label for="another">Someone else </label>
+                </div>
+                <div class="column-right">
+                  <input type="checkbox" id="another" name="another" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="column-left">
+                  <label for="fname">First Name </label>
+                </div>
+                <div class="column-right">
+                  <input type="text" id="fname" name="fname" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column-left">
+                  <label for="lname">Last Name </label>
+                </div>
+                <div class="column-right">
+                  <input type="text" id="lname" name="lname" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column-left">
+                  <label for="dob">Date of Birth </label>
+                </div>
+                <div class="column-right">
+                  <input type="date" id="dob" name="dob" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column-left">
+                  <label for="telephone">Telephone Number: </label>
+                </div>
+                <div class="column-right">
+                  <input type="tel" id="telephone" name="telephone" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column-left">
+                  <label for="email">Email: </label>
+                </div>
+                <div class="column-right">
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column-left">
+                  <label for="message">Your query or message: </label>
+                </div>
+                <div class="column-right">
+                  <input type="text" id="message" name="message" required />
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
+    </main>
+  </body>
+</html>
